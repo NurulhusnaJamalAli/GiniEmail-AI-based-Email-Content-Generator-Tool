@@ -35,7 +35,7 @@ def get_language_code(selected_language):
     return language_mapping.get(selected_language, "en")  # Default to English if language not found
 
 #%%
-def generate_email(recipient_name, email_subject, desired_tone, keywords, selected_language, max_length):
+def generate_email(recipient_name, email_subject, desired_tone, keywords, selected_language):
     # Prepare the prompt for the model
     prompt = f"Dear {recipient_name},\n\nSubject: {email_subject}\n\n"
     if desired_tone == "Formal":
@@ -77,11 +77,8 @@ def generate_email(recipient_name, email_subject, desired_tone, keywords, select
         translated_start = translator.translate(f"Hi {recipient_name},", src='en', dest=language_code).text
     else:
         translated_start = f"Hi {recipient_name},"
-        
-    generated_email_with_intro = translated_start + " " + generated_email
 
-    # Truncate the generated email to fit the maximum email length
-    generated_email_with_intro = generated_email_with_intro[:max_length]
+    generated_email_with_intro = translated_start + " " + generated_email
 
     return generated_email_with_intro
 
@@ -100,16 +97,11 @@ def main():
          "Italian", "Japanese", "Korean", "Russian", "Arabic", "Dutch", "Swedish", "Turkish", "Hindi"]
     )
 
-    max_length = st.number_input("Maximum Email Length (characters):", min_value=50, max_value=2000, value=150)
-    st.text("Notes: The minimum email characters is 50 characters, and the maximum email characters is 2000 characters.")
-
     if st.button("Generate Email"):
-        generated_email = generate_email(recipient_name, email_subject, desired_tone, keywords, selected_language,
-                                        max_length)
+        generated_email = generate_email(recipient_name, email_subject, desired_tone, keywords, selected_language)
         st.subheader("Generated Email:")
         st.write(generated_email)
 
 if __name__ == "__main__":
     main()
 
-# %%
