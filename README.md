@@ -8,6 +8,12 @@ GiniEmail is an AI-based Email Content Generator Tool that allows users to quick
 
 Visit the live demo of GiniEmail at [GiniEmail - AI-based Email Content Generator Tool](https://giniemail-ai-based-email-content-generator-tool-6fcgi9i4cyplnt.streamlit.app/)
 
+<img width="596" alt="image" src="https://github.com/NurulhusnaJamalAli/GiniEmail-AI-based-Email-Content-Generator-Tool/assets/141206939/459014d1-50ee-407f-923e-6b6804a4ded3">
+
+<img width="596" alt="image" src="https://github.com/NurulhusnaJamalAli/GiniEmail-AI-based-Email-Content-Generator-Tool/assets/141206939/09fb81e4-7d04-4582-b73c-a1e50d166d6f">
+
+<img width="599" alt="image" src="https://github.com/NurulhusnaJamalAli/GiniEmail-AI-based-Email-Content-Generator-Tool/assets/141206939/66101883-2ba4-48f7-a88f-14f5bc70608b">
+
 ## Installation
 
 To set up and install GiniEmail, follow these steps:
