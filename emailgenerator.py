@@ -6,9 +6,8 @@ from googletrans import Translator
 
 #%%
 # Set your OpenAI API key
-from dotenv import dotenv_values
-config = dotenv_values('.env')
-openai.api_key = config['OPENAI_API_KEY']
+import os
+openai.api_key = os.environ['OPENAI_API_KEY']
 
 #%%
 # Initialize the Google Translator
