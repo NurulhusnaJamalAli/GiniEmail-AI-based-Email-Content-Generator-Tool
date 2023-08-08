@@ -66,14 +66,3 @@ If you encounter any issues while using GiniEmail, try the following troubleshoo
 
 - Double-check that you have set up the OpenAI API key correctly.
 - Ensure that all required dependencies are installed.
-
-## FAQ
-
-**Q: Can I use GiniEmail for commercial purposes?**
-A: Yes, GiniEmail is open-source and distributed under the MIT License, allowing commercial use.
-
-**Q: What is the maximum email length that can be generated?**
-A: The maximum email length can be set by the user during email generation, ranging from 50 to 2000 characters.
-
-**Q: Is my API key secure?**
-A: Your API key should be kept confidential and not shared publicly to prevent unauthorized access to your OpenAI resources. Store it securely in the `.env` file.
