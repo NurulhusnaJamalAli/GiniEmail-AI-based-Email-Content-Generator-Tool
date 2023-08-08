@@ -54,7 +54,7 @@ GiniEmail is distributed under the MIT License. For the full license details, pl
 
 ## Acknowledgments
 
-We would like to acknowledge the contributions of various open-source libraries and tools that make GiniEmail possible.
+I would like to acknowledge the contributions of various open-source libraries and tools that make GiniEmail possible. I would also like to thank my trainers and classmates for continuous help and support. 
 
 ## Contact
 
@@ -66,7 +66,6 @@ If you encounter any issues while using GiniEmail, try the following troubleshoo
 
 - Double-check that you have set up the OpenAI API key correctly.
 - Ensure that all required dependencies are installed.
-- If you experience unexpected behavior, report the issue on the project's GitHub repository.
 
 ## FAQ
 
