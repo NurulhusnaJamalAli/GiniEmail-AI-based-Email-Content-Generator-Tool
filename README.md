@@ -42,7 +42,6 @@ OPENAI_API_KEY="your_actual_openai_api_key_here"
 - Support for both formal and casual email tones.
 - Option to include keywords related to the email's content.
 - Multiple language support for email generation.
-- Set maximum email length to fit specific requirements.
 
 ## Deployment
 
