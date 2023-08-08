@@ -50,7 +50,7 @@ To deploy GiniEmail to production, you can use Streamlit Cloud or other hosting 
 
 ## License
 
-GiniEmail is distributed under the MIT License. For the full license details, please refer to the [LICENSE](LICENSE) file.
+GiniEmail is distributed under [LICENSE](LICENSE).
 
 ## Acknowledgments
 
