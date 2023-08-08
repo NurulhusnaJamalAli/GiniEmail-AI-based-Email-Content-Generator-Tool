@@ -27,7 +27,7 @@ To set up and install GiniEmail, follow these steps:
 
 ## Usage
 
-To use GiniEmail, run the `runapp.py` script and access the web application through your browser. Enter the recipient's name, email subject, desired tone, and any keywords related to the email's content. Select the desired language and the maximum email length, then click on the "Generate Email" button to get the AI-generated email draft.
+To use GiniEmail, run the `runapp.py` script and access the web application through your browser. Enter the recipient's name, email subject, desired tone, and any keywords related to the email's content. Select the desired language, then click on the "Generate Email" button to get the AI-generated email draft.
 
 ## Configuration
 
